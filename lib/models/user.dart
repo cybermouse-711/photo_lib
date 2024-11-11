@@ -1,8 +1,7 @@
 class User {
   final String login;
   final String password;
-  var bool authorization;
+  final String id;
 
-  User(this.login, this.password);
-  
+  User(this.login, this.password, this.id);
 }
